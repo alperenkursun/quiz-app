@@ -1,0 +1,56 @@
+.card{
+    width: 500px !important;
+    height: 500px !important;
+}
+
+.box{
+    width: 40px;
+    height: 40px;
+}
+
+#timecontainer{
+    border-radius: 25px 25px 25px 25px;
+}
+
+#timebar{
+    width: 466px;
+    height: 5px;
+}
+
+#start{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#quiz{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#ask{
+    pointer-events: none;
+}
+
+#end{
+    width: 400px;
+    height: 400px;
+    border: 7px solid #0dcaf0;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.display{
+    opacity: 1 !important;
+    pointer-events: initial !important;
+}
+
+.answer{
+    cursor: pointer;
+}
+
+#a:hover,#b:hover,#c:hover,#d:hover{
+    background-color: rgb(255, 193, 7);
+    color: white;
+    transition: all 0.5 ease-in;
+}
+
